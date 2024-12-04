@@ -55,13 +55,7 @@ const Profile = () => {
       </TouchableOpacity>
 
       {/* Inbox Button */}
-      <TouchableOpacity
-        style={styles.logoutButton}
-        onPress={() => navigation.navigate('Inbox')}
-      >
-        <Icon name="inbox" size={20} color="#fff" style={styles.icon} />
-        <Text style={styles.logoutText}>Booking</Text>
-      </TouchableOpacity>
+    
 
 {/*MY post */}
 <TouchableOpacity
